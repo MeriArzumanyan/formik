@@ -1,0 +1,54 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  position: relative;
+}
+.logIn {
+  width: 400px;
+  background-color: white;
+  height: 400px;
+  padding: 20px;
+  border-radius: 5px;
+}
+h1 {
+  padding-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+p {
+  text-align: center;
+  padding-top: 10px;
+}
+span {
+  color: blueviolet;
+}
+span:hover {
+  text-decoration: underline;
+}
+span:hover {
+  cursor: pointer;
+}
+.sign {
+  position: absolute;
+  width: 500px;
+  background-color: white;
+  height: 550px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.btn{
+  margin: 0 0 0 15px;
+  width: 40px;
+  height: 45px;
+}
+
+.sign form{
+  padding-top: 40px;
+}
